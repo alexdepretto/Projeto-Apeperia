@@ -1,0 +1,96 @@
+
+/*** TABLET ***/
+@media screen and (min-width: 768px) {
+  
+  .chamada_texto { max-width: 600px; }
+
+  .cartao { max-width: 400px; }
+
+  .institucional_contato-email { display: inline-block; }
+
+  .institucional_video { width: 100%; }
+}
+
+/*** DESKTOP ***/
+@media screen and (min-width: 1024px) {
+  
+  /* Geral */
+  .container {
+    padding-left: calc((100% - 940px)/2);
+    padding-right: calc((100% - 940px)/2);
+  }
+  
+  /* Cabeçalho */
+  .cabecalho {
+    flex-direction: row;
+    justify-content: space-between;
+    border: none;
+  }
+
+  /* Chamada */
+  .chamada {
+    background-image: url(../img/bg-intro.jpg);
+    background-size: cover;
+    padding-top: 8.25rem;
+  }
+
+  .chamada_titulo {
+    font-size: 3.25rem;
+    margin-bottom: 2rem;
+  }
+
+  /* Diferenciais */
+  .diferenciais { background-color: var(--cinzaClaro); }
+
+  .diferenciais_lista { justify-content: space-around; }
+
+  /* Sobre */
+  .sobre { display: flex; }
+
+  .sobre_conteudo { margin-right: 3rem; }
+
+  .sobre_titulo { text-align: left; }
+
+  .sobre_texto-divisao {
+    border-bottom: 1px solid var(--cinzaMedio);
+    padding-bottom: 1.5rem;
+  }
+
+  .sobre_imagem { display: block; }
+
+  /* Planos */
+  .planos_cartoes {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .cartao { max-width: 300px; }
+
+  /* Institucional */
+  .institucional_conteudo {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    width: 100%;
+  }
+  
+  .institucional_video {
+    align-self: flex-end;
+    width: 375px;
+  }
+  
+  .institucional_contato-email { display: block; }
+
+  /* Rodapé */
+  .rodape {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .rodape_navegacao {
+    min-width: 600px;
+    text-align: left;
+  }
+}

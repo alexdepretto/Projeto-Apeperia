@@ -1,0 +1,29 @@
+
+.chamada  {
+  flex-direction: column;
+  align-items: center;
+  color: var(--branco);
+  text-align: center;
+  background-color: var(--bgChamada);
+  padding-top: 12.25rem;
+  padding-bottom: 2.5rem;
+  display: flex;
+}
+
+.chamada_titulo {
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+  font-family: var(--montserrat);
+}
+
+.chamada_texto {
+  line-height: normal;
+  font-size: 1.25rem;
+  margin: 0 auto 2.5rem;
+}
+
+.chamada_botao {
+  width: 100%;
+}

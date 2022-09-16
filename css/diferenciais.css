@@ -1,0 +1,35 @@
+
+.diferenciais {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+
+.diferenciais_lista {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.diferenciais_item {
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-position: top 1.25rem left 2.5rem;
+  max-width: 350px;
+  padding: 2rem 0 2rem 5rem;
+}
+
+.diferenciais_item-tempo { background-image: url(../img/icone-relogio.png); }
+
+.diferenciais_item-foco { background-image: url(../img/icone-dinheiro.png); }
+
+.diferenciais_item-especialistas { background-image: url(../img/icone-quimica.png); }
+
+.item_titulo {
+  color: var(--cinzaEscuro);
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+}
+
+.item_texto { line-height: normal; }

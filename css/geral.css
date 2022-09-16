@@ -1,0 +1,39 @@
+
+:root {
+--branco: white;
+--azulClaro: #DFE3E5;
+--vermelhoEscuro: #B72E2E;
+--cinzaEscuro: #4F4C4C;
+--cinzaClaro: #F7F4F4;
+--cinzaMedio: lightgray;
+
+--link: #0084FF;
+--fonteCinza: #666;
+--bordaCabecalho: #103D4A;
+--bgRodape: #333;
+--bgChamada: #00161c;
+--cartaoStart: #56CCF2;
+--cartaoUltra: #B04CD9;
+--cartaoMega: #E33B3B;
+
+--montserrat: 'Montserrat', serif;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+  /*text-align: justify;*/
+}
+
+.container { padding: 0 6%; }
+
+.botao {
+  display: block;
+  border: 1px solid var(--branco);
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 1rem 2rem;
+  width: 100%;
+  max-width: 350px;
+  text-align: center;
+}

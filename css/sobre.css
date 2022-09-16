@@ -1,0 +1,34 @@
+
+.sobre {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.sobre_titulo {
+  color: var(--cinzaEscuro);
+  font-weight: bold;
+  font-size: 1.5rem;
+  font-family: var(--montserrat);
+  margin-bottom: 1.25rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.sobre_texto {
+  line-height: normal;
+  margin-bottom: 1rem;
+}
+
+.sobre_texto-destaque {
+  color: var(--cinzaEscuro);
+  font-weight: bold;
+}
+
+.sobre_plataformas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 1rem;
+}
+
+.sobre_imagem { display: none; }
